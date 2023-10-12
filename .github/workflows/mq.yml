@@ -1,0 +1,10 @@
+name: Merge Queue CI
+
+on: merge_group
+
+jobs:
+    Queue:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+                echo "Running merge queue"

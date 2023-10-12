@@ -1,0 +1,11 @@
+name: Test CI
+
+on: push
+
+jobs:
+    Sleep:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+                echo "Getting sleepy..."
+                sleep 3m
